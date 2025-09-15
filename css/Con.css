@@ -1,0 +1,207 @@
+#head {
+	color: ghostwhite;
+	text-align: center;
+	font-style: oblique;
+	font-size: 300%;
+	font-variant: small-caps;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#con {
+	font-size:175%;
+	font-variant: small-caps;
+}
+
+#con1 {
+	font-size:150%;
+	font-variant: small-caps;
+	color: ghostwhite;
+	text-align: center;
+}
+
+#con2 {
+	font-size:125%;
+	font-variant: small-caps;
+}
+
+#ab {
+	font-style:;
+	font-size: 100%;
+	font-variant: small-caps;
+}
+
+#suc {
+	font-style: 115%;
+	font-variant: small-caps;
+}
+
+#suc1 {
+	font-style: %;
+	font-variant: small-caps;
+	color: ghostwhite;
+	text-align: center;
+}
+
+.text {
+	color: ghostwhite;
+	font-style: oblique;
+	font-variant: small-caps;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#text1 {
+	font-style: oblique;
+	color: ghostwhite;
+	text-align: center;
+	font-size: 225%;
+	font-variant: small-caps;
+}
+
+#text2 {
+	font-style: oblique;
+	text-align: center;
+	color: ghostwhite;
+	font-variant: small-caps;
+	font-size: 100%;
+}
+
+#text3 {
+	font-style: oblique;
+	text-align: center;
+	font-size: 100%;
+	font-variant: small-caps;
+}
+
+#text4 {
+	font-style: oblique;
+	text-align: center;
+	font-size: 225%;
+	font-variant: small-caps;
+}
+
+#text5 {
+	color: ghostwhite;
+	font-style: oblique;
+	text-align: center;
+	font-size: 250%;
+	font-variant: small-caps;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#text6 {
+	color: ghostwhite;
+	font-style: oblique;
+	text-align: center;
+	font-size: 215%;
+	font-variant: small-caps;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.button {
+	font-variant: small-caps;
+}
+
+.button {
+	font-variant: small-caps;
+	text-align: center;
+}
+
+#ab1 {
+	text-align: center;
+	font-variant: small-caps;
+	color: ghostwhite;
+	font-style: oblique;
+	font-size: 315%;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#ab2 {
+	text-align: center;
+	font-variant: small-caps;
+	color: ghostwhite;
+	font-style: oblique;
+	font-size: 315%;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#ab3 {
+	text-align: center;
+	font-variant: small-caps;
+	color: ghostwhite;
+	font-style: oblique;
+	font-size: 265%;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#ab4 {
+	text-align: center;
+	font-size: 115%;
+}
+
+#s1 {
+	text-align: center;
+	font-variant: small-caps;
+	color: ghostwhite;
+	font-style: oblique;
+	font-size: 450%;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.ts {
+	font-variant: small-caps;
+	color: ghostwhite;
+	font-style: oblique;
+	font-size: 350%;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#ta {
+	width: 50%;
+}
+
+.js {
+	color: ghostwhite;
+	text-align: center;
+}
+
+h2 {
+	color: ghostwhite;
+	font-size: 300%;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
+li {
+	color: ghostwhite;
+	font-size: 250%;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	list-style-type: none;
+}
+
+h3 {
+	color: ghostwhite;
+	font-size: 300%;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#cuff {
+	width: 25%;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	color: ghostwhite;
+	font-size: 250%;
+	font-family: "Times New Roman", Times, serif;
+}
+
+ul {
+	text-align: center;
+}
+
+#story {
+	font-size: 500%;
+}

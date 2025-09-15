@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/Con.css">
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <title>CON NECT-VEY</title>
+          <style>
+            body{
+            background-image: url("imgs/im3.jpg");
+            background-size: cover}
+          </style>
+</head>
+
+<body>
+<p id="head" class="text-center">
+  <img class="img-fluid" src="imgs/vey1.png" width="750" alt="VEY Logo">
+</p>
+
+<div class="container">
+  <h2 id="con1" class="font-italic">Learn More About CON NECTED..</h2>
+<div id="ab4" class="btn-group btn-group-justified">
+  <a href="About%20Us.html" class="btn btn-primary border">ABOUT US</a>
+</div>
+
+<div id="suc1" class="alert alert-danger alert-dismissable text-center">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Mandatory!</strong> Make Sure You Check "About Us" Before You Continue.
+</div>
+
+
+<!-- Main Form -->
+<form id="user-form" method="post">
+<div class="input-group mb-3">
+  <h1 class="text font-italic">Anonymous "Code Name"</h1>
+    <input type="text" aria-label="First Alias" name="firstName" class="form-control" placeholder="John/Jane">
+    <input type="text" aria-label="Last Alias" name="lastName" class="form-control" placeholder="Doe">
+      <button class="button" class="btn btn-outline-secondary" type="button">Edit</button>
+      <button class="button" class="btn btn-outline-secondary" type="button">Save</button>
+</div>
+
+<div class="input-group mb-3">
+  <h1 class="text input-group-text">Do You Want Children?</h1>
+    <select name="Children" class="button form-select">
+      <option value="" selected>Choose..</option>
+      <option value="Yes, but only one.">Yes, but only one.</option>
+      <option value="Yes, but more than two.">Yes, but more than two.</option>
+      <option value="No.">No.</option>
+      <option value="I already have children.">I already have children.</option>
+    </select>
+</div>
+
+<div class="input-group mb-3">
+  <h1 class="text input-group-text">What Would You Say Your Favorite Incarcerated Thing(s) To Do Is?</h1>
+    <textarea name="Incarcerated Thing" class="form-control" rows="3"></textarea>
+      <button class="button" class="btn btn-outline-secondary" type="button">Edit</button>
+      <button class="button" class="btn btn-outline-secondary" type="button">Save</button>
+</div>
+
+<div class="input-group mb-3">
+  <h1 class="text input-group-text">Would You Rather The Background Sound of Laughter or Pure Silence?</h1>
+    <select name="Preferred Bg Sound" class="button form-select">
+      <option value="" selected>Choose..</option>
+      <option value="Hearty laughter.">Hearty laughter.</option>
+      <option value="Pure silence.">Pure silence.</option>
+      <option value="Either.">Either.</option>
+    </select>
+</div>
+
+<div class="input-group mb-3">
+  <h1 class="text input-group-text">Does Incarceration Put You In A State Of Sadness, Depression, or Melancholy?</h1>
+    <select name="Depressive State" class="button form-select">
+      <option value="" selected>Choose..</option>
+      <option value="Yes, everyday.">Yes, everyday.</option>
+      <option value="No, I'm content.">No, I'm content.</option>
+      <option value="Dependent upon the day.">Dependent upon the day.</option>
+    </select>
+</div>
+
+<div class="input-group mb-3">
+  <h1 class="text input-group-text">Have You Ever Been Connected With Someone Incarcerated?</h1>
+    <select name="CON NECTED" class="button form-select">
+      <option value="" selected>Choose..</option>
+      <option value="Yes.">Yes.</option>
+      <option value="No.">No.</option>
+    </select>
+</div>
+
+<div class="input-group mb-3">
+  <h1 class="text input-group-text">Pick One:</h1>
+    <select name="Pick One" class="button form-select">
+      <option value="" selected>Choose..</option>
+      <option value="Sex.">Sex.</option>
+      <option value="Family.">Family.</option>
+      <option value="Money.">Money.</option>
+      <option value="Love.">Love.</option>
+      <option value="Food.">Food.</option>
+      <option value="Parties.">Parties.</option>
+    </select>
+</div>
+
+<div class="input-group mb-3">
+  <h1 class="text input-group-text">Why Do You Want To Share Your Story?</h1>
+    <textarea name="Why Share" class="form-control" rows="3"></textarea>
+      <button class="button" class="btn btn-outline-secondary" type="button">Edit</button>
+      <button class="button" class="btn btn-outline-secondary" type="button">Save</button>
+</div>
+
+<!-- The ONE clear submit button -->
+<div class="input-group mb-3">
+  <button type="submit" class="btn btn-primary btn-block">Submit</button>
+</div>
+</form>
+
+<!-- Where JS will show the answers/thank you -->
+<div id="result"></div>
+
+<!-- The rest of your content -->
+<div class="container">
+<div id="ab4" class="btn-group btn-group-justified">
+  <a href="story-js.html" class="btn btn-primary border" id="story">STORY TIME !!</a>
+</div>
+
+<!-- Your custom form handler JS file - put this after everything else -->
+<script src="form-handler.js"></script>
+</body>
+</html>
